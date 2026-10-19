@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+ padding: 0;
+  font-family: Arial,sans-serif;
+}
+.welcome {
+    font-size: 35px;
+    text-align: center;
+    color: brown;
+    background-color:#384521;
+}
+.buttons {
+    background-color: #a32828;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 200px
+}
+button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #dcb557
+}
+.home {
+    text-align: center;
+    color:#e7ebeb;
+    background-color:#2f4d4d
+}
+.location {
+    text-align: center;
+    color: #9b32cf;
+    background-size: cover;
+    min-height: 1000px;
+    padding: 60px 20px;
+}
+ body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+.location-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.location-photo h4 {
+    max-width: 300px;
+}
